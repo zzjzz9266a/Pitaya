@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Pitaya"
-  s.version          = "1.0.0"
+  s.version          = "3.0.1"
   s.summary          = "A Swift HTTP / HTTPS networking library just incidentally execute on machines"
 
 # This description is used to generate tags and improve search results.
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-                        Pitaya is a Swift HTTP / HTTPS networking library for people. Inspired by Alamofire and JustHTTP.
-                        DESC
-
+  s.description      = 'Pitaya is a Swift HTTP / HTTPS networking library for people. Inspired by Alamofire and JustHTTP.
+                        (Forked from johnlui/Pitaya)'
   s.homepage         = "https://github.com/johnlui/Pitaya"
 
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "johnlui" => "wenhanlv@gmail.com" }
-  s.source           = { :git => "https://github.com/johnlui/Pitaya.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/zzjzz9266a/Pitaya", :tag => s.version.to_s }
   s.social_media_url = 'http://weibo.com/balishengmuyuan'
 
   s.ios.deployment_target = '8.0'
